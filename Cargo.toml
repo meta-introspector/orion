@@ -47,8 +47,8 @@ num-rational = { version = "0.4.2", default-features = false }
 name = "bench"
 harness = false
 
-[profile.dev]
-opt-level = 1
+# [profile.dev]
+# opt-level = 1
 
 [package.metadata.docs.rs]
 all-features = true
